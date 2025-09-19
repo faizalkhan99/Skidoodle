@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 8336354000453067441}
   - component: {fileID: 6076581312913315451}
   - component: {fileID: -4180559501465110300}
+  - component: {fileID: -7426386135651407174}
   m_Layer: 0
   m_Name: garbage-bin
   m_TagString: Untagged
@@ -195,3 +196,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.55942065, y: 0.7821816, z: 0.57648504}
   m_Center: {x: -0.0062679946, y: 0.3910908, z: 0.004700944}
+--- !u!54 &-7426386135651407174
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5716377387404769198}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

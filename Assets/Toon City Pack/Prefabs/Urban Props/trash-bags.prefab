@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6174422797892903482}
-  - component: {fileID: 6361562290212257712}
   m_Layer: 0
   m_Name: trash-bags
   m_TagString: Untagged
@@ -34,27 +33,6 @@ Transform:
   - {fileID: 8392342432587091138}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6361562290212257712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6837630260587706496}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.3278284, y: 0.5096532, z: 1.2434344}
-  m_Center: {x: 0, y: 0.2451734, z: 0.010432839}
 --- !u!1 &7136402645563660516
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,6 +44,7 @@ GameObject:
   - component: {fileID: 1134059149764014171}
   - component: {fileID: 56200719309935165}
   - component: {fileID: 3264283593916982229}
+  - component: {fileID: 9087500016576483251}
   m_Layer: 0
   m_Name: Trash Bags 1
   m_TagString: Untagged
@@ -141,6 +120,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9087500016576483251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136402645563660516}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7520983, y: 0.7445096, z: 0.5703645}
+  m_Center: {x: -0.0037943572, y: -1.3480265e-17, z: 0.2845732}
 --- !u!1 &7924940713109972261
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 8392342432587091138}
   - component: {fileID: 8420447405848447638}
   - component: {fileID: 6913617063717921620}
+  - component: {fileID: 7627219196514507419}
   m_Layer: 0
   m_Name: Trash Bags 2
   m_TagString: Untagged
@@ -227,3 +228,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7627219196514507419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924940713109972261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7401509, y: 0.7444933, z: 0.60747176}
+  m_Center: {x: -0.0024800599, y: 0.00053159887, z: 0.29892066}
