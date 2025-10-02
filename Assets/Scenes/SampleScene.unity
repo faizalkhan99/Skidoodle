@@ -2670,9 +2670,11 @@ MonoBehaviour:
   _rearLeftWheelSkid: {fileID: 0}
   _rearRightWheelSkid: {fileID: 0}
   _driftThreshold: 0.9
+  _engineSoundID: 1
   _driftSoundID: 0
   onStartLoopingSoundRequest: {fileID: 0}
   onStopLoopingSoundRequest: {fileID: 0}
+  onUpdateEnginePitchRequest: {fileID: 0}
 --- !u!54 &1091158084
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3608,7 +3610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1348105789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4163,7 +4165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1728864722
 RectTransform:
   m_ObjectHideFlags: 0

@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: eddf7e0e581d94c3fb7b302b63488b05
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234785
+  packageName: Toon City Pack
+  packageVersion: 1.0
+  assetPath: Assets/Loading Games/Toon City Pack/Models/Vehicles/Government Vehicles/taxi.fbx
+  uploadId: 536772
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -12,8 +19,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: main-color-palette_mat.010
+    second: {fileID: 2100000, guid: f4aee0ca494b01241af4d281e28f927c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear-light.003
+    second: {fileID: 2100000, guid: 4557484b2ad8bbc47a4c7c51eb7a2033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: taxi-texture_mat
     second: {fileID: 2100000, guid: 95ab7eb22b4ad43d7a6abe1fa0b4f140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taxi-texture_mat.001
+    second: {fileID: 2100000, guid: 4e10e962c8241994184d1dc8e439f833, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -32,8 +54,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: taxi-windows_mat.001
+    second: {fileID: 2100000, guid: c477cf782b9d57847b4ae15404914706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: taxi_mat
     second: {fileID: 2100000, guid: b1879a5879e1649f7a109ae841c28eac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taxi_mat.001
+    second: {fileID: 2100000, guid: ff6b74d45ba7f7547b68e816d4e870a5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -46,8 +78,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -70,6 +100,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -97,6 +128,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -129,15 +161,9 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 234785
-  packageName: Toon City Pack
-  packageVersion: 1.0
-  assetPath: Assets/Loading Games/Toon City Pack/Models/Vehicles/Government Vehicles/taxi.fbx
-  uploadId: 536772

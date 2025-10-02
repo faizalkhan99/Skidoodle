@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4576678820142180588}
   - component: {fileID: 588980574382712649}
   - component: {fileID: 3443158044999881603}
-  - component: {fileID: -4618575529808873943}
+  - component: {fileID: -7448289685841263309}
   m_Layer: 0
   m_Name: single-lane-linear-road-piece
   m_TagString: Untagged
@@ -88,8 +88,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-4618575529808873943
-BoxCollider:
+--- !u!64 &-7448289685841263309
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,6 +106,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6.5, y: 0.16499999, z: 6.5}
-  m_Center: {x: 0.08555853, y: 0.082499996, z: 3.25}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8195356390421665595, guid: caf269b62b22e4b29b2b0a13cc22785b, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8282475173029413781}
   - component: {fileID: 4998600710634736688}
   - component: {fileID: 7114121248090028282}
-  - component: {fileID: -8562311817235556322}
+  - component: {fileID: 1113543227949445714}
   m_Layer: 0
   m_Name: pedestrian-way-linear-piece
   m_TagString: Untagged
@@ -87,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-8562311817235556322
-BoxCollider:
+--- !u!64 &1113543227949445714
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,6 +105,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.9967256, y: 0.16499999, z: 4.9967256}
-  m_Center: {x: 0.0657711, y: 0.082499996, z: 2.4983628}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2220449665482703035, guid: 245fa0cad15274c368b3008fccafeebf, type: 3}

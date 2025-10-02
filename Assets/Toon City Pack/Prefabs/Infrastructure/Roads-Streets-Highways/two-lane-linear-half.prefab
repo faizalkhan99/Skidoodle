@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4179479168232464708}
   - component: {fileID: 986189077381066465}
   - component: {fileID: 3047620782059149867}
-  - component: {fileID: 8692241883456902721}
+  - component: {fileID: -624773997159005956}
   m_Layer: 0
   m_Name: two-lane-linear-half
   m_TagString: Untagged
@@ -88,8 +88,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8692241883456902721
-BoxCollider:
+--- !u!64 &-624773997159005956
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,6 +106,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 11.204796, y: 0.16499953, z: 5.6024017}
-  m_Center: {x: -0.00000166893, y: 0.02750008, z: 2.8011994}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7732798003570604527, guid: 0cbea95d6a3bcd849a106e731a07624b, type: 3}
